@@ -1,0 +1,220 @@
+    .yellowfoot {
+        width: auto;
+        padding: 0px 0px 0px;
+    }
+footer#footer {
+    background: rgb(0, 0, 0, 0.8) !important;
+    border-top: 1px solid yellow;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 300;
+    font-size: 12px;
+    border-top-style: groove;
+    width: 1170px;
+    margin: auto;
+    box-shadow: rgb(0 0 0 / 90%) 0 32px 62px -2px, rgb(0 0 0 / 90%) 0 30px 32px -3px;
+}
+    .bottomnv {
+        width: auto;
+    }   
+img {
+    max-width: 100%;
+    height: auto;
+}
+    .bottomnv .blacktp {
+        list-style-type: none;
+        overflow: hidden;
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        padding-right: 55px;
+    }
+
+    .bottomnv li {
+        display: inline-block;
+        list-style-type: none;
+    }
+    
+    .bottomnv li a {
+        display: block;
+        background:  linear-gradient(to right, #a80000 0%, #f20f0f 50%, #8b0303 100%) !important;
+        border-radius: 10px 10px 10px 10px;
+        color: white;
+        padding: 14px 16px;
+        text-transform: uppercase;
+        text-decoration: none;
+        border-bottom: 1px solid gold;
+        border-top: 1px solid gold;
+        padding: 8px;
+    }
+    
+    .bottomnv_active {
+        border-bottom: 1px solid #fff!important;
+        border-top: 1px solid #fff!important;
+        border-left: none;
+        border-right: none;
+        text-transform: uppercase;
+        color: #fff!important;
+    }
+    
+    .Slot-taroslot{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 4px;
+        grid-row-gap: 4px;
+    }
+    
+    .casino-taroslot{
+                align-self: auto;
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                grid-template-rows: repeat(2, 1fr);
+                grid-column-gap: 4px;
+                grid-row-gap: 4px;
+            }
+    
+    .daftar-slot-taroslot{
+        margin: 7px;
+        border: 1px solid silver;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 0.5s;
+        animation: shadow 2s infinite alternate;
+    }
+    
+    .daftar-casino-taroslot{
+        margin: 7px;
+        border: 1px solid silver;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 0.5s;
+        animation: shadow 2s infinite alternate;
+    }
+     a {
+        Color: #fff;
+    }
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-right: 15px;
+    margin-left: 15px;
+    font-size: 12px;
+    font-weight: 500;
+}
+h2, h3, h4 {
+   font-size: 2rem;
+   margin-left: 6px;
+}  
+    .togel-title {
+        padding: 0px;
+        padding-bottom: 20px;
+        font-size: 1.4rem;
+        font-weight: bold;
+        color: var(--primary-text-color);
+        -webkit-text-stroke-width: thin;
+       text-shadow: -2px -1px 2px black;
+    }
+    .fitur-header {
+        font-size: 1.4rem;
+        text-shadow: -2px -1px 3px black;
+    }
+   .transaksi-name {
+     font-size: 1.3rem;
+     text-align: center;
+     text-shadow: -2px -1px 2px black
+    }
+    .bantuan-content {
+        flex-direction: column;
+        list-style: disc;
+        gap: 8px;
+        text-shadow: 2px 1px 0px black;
+    }
+    .count-item {
+    font-size: 1.8rem;
+    background: #00ff2a;
+    padding: 0.3rem 0.5rem; 
+    color: #000 !important;
+    border-radius: 10px;
+    font-weight: bold;
+    }  
+.wrapper-service {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 1.3rem;
+    border: 3px solid #03f1f3;
+    padding: 0.8rem;
+    background-color: rgba(0, 0, 0, 0.6);
+} 
+   .status-wrapper, .status-wrapper-mem {
+    display: flex;
+    align-items: center;
+    }
+    .status-wrapper {
+      justify-content: center;
+    }
+    .status-wrapper-mem {
+      justify-content: center;
+    }
+    .status-wrapper p {
+    margin-right: 0.6rem !important;
+    }
+    .item-service {
+    margin-right: 3rem;
+    }
+    .item-service:last-child {
+    margin-right: 0;
+    }
+    .item-service h1 {
+    font-size: 1.5rem;
+    margin-top: 7px !important;
+    text-transform : uppercase;
+    font-weight: bold !important;
+    color: #ffffff;
+    }
+    
+    .google-wrapper {
+    background: #ffffff;
+    padding: 1.7rem;
+    width: 18rem;
+    height: 0.5rem;
+    border-radius: 10px;
+    position: relative;
+    }
+    .google-wrapper img {
+    position: absolute;
+    width: 2rem;
+    top: 9px;
+    left: 10px;
+    }
+    .item-service p {
+    color: #00ffea;
+    font-weight: bold;
+    font-size: larger;
+    }
+    .google-wrapper p {
+    position: absolute;
+    left: 4.3rem;
+    top: 0.6rem;
+    text-transform: uppercase;
+    font-size: 1.50rem !important;
+    font-weight: bold !important;
+    color: #0238fd !important;
+    }
+@media only screen and (max-width: 1000px) {
+    .accordion-button:not(.collapsed) {
+        color: inherit;
+        box-shadow: none;
+    }
+}
+@media only screen and (max-width: 1000px) {
+
+    .desktop-only {
+        display: none!important;
+    }
+    
+    .mobile-only {
+        display: block!important;
+    }
