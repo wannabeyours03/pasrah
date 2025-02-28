@@ -1,0 +1,1 @@
+$('<marquee style="color: white; margin-top:0px; margin-bottom:-6.2px; background-color: #000000;"><b>Lotto03.com Bandar Togel Online Terbesar dan Terpercaya.</b> </marquee>').insertBefore($(".owl-carousel"));
