@@ -1,0 +1,152 @@
+#bank .col-md-9 {
+    top: -1.5rem;
+    margin-bottom: -3.5rem;
+    margin-top: -8rem;
+}
+.fa-history {
+    color: #ffffff;
+    background: -webkit-linear-gradient(#ffffff, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.col-md-9 .owl-carousel .owl-wrapper {
+    height: 70px;
+    }
+
+.bankscroll .owl-controls.clickable {
+    display: none !important;
+    }
+
+#bank.section .container {
+    height: 0;
+    padding: 0 20px;
+    }
+
+.col-md-9 center {
+    display: none;
+    }
+
+button.btn-theme:hover, .btn.btn-theme:hover, button.btn-small:hover, .btn.btn-small:hover {
+    background-color: #3881ff;
+    background: -webkit-linear-gradient(#3881ff, #3881ff);
+    }
+
+.bank {
+    width: 95%;
+    height: 70px;
+    padding: 8px 20px;
+    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_4k2nU70G3DloLgKfukBr1q4a0b3ymh4HPHLPgU-rMpvrMqgLjF5avV_E2x_nAnlltZXQHYPIbavqJbzao_-dl8V1Rnq7ilIpzzpyIYoZr3PjjYm0qvUksgpnbSt754722RocbNtsZ9mlEEpWBA5q4TlUELEdcRss_S15EMM08HlsL_VonnUDQOHW3eQ/s160/bg-bank.webp);
+    border: 1px solid #0babf7 !important;
+    -webkit-border-radius: 4px !important;
+    display: inline-block;
+    }
+
+.online {
+    width: 117px;
+    height: 20px;
+    background-color: #000;
+    border-radius: 5px;
+    color: #52fe4a;
+    border: 1px solid #0095ff;
+    margin: 0px;
+    background: url(https://i.ibb.co/1rF0DMt/onoffmain.webp) 0px -2px no-repeat;
+    }
+
+.offline {
+    width: 117px;
+    height: 21px;
+    background-color: #000;
+    border-radius: 5px;
+    color: #52fe4a;
+    border: 1px solid #313b51;
+    margin: 0px;
+    background: url(https://i.ibb.co/1rF0DMt/onoffmain.webp) 0px -18px no-repeat;
+    }
+
+.trouble {
+    width: 117px;
+    height: 21px;
+    background-color: #000;
+    border-radius: 5px;
+    color: #52fe4a;
+    border: 1px solid #313b51;
+    margin: 0px;
+    background: url(https://i.ibb.co/1rF0DMt/onoffmain.webp) 0px -36px no-repeat;
+    }
+
+.bank img {
+    margin-top: 5px;
+    margin-left: -12px;
+    filter: drop-shadow(2px 1px 1px #ffffff);
+    }
+	
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(1) {
+content: url("https://cdn.jsdelivr.net/gh/kerasyadekk/turbo-meme@main/03fotpic/sgp.png") !important;
+}
+
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(2) {
+content: url("https://i.ibb.co/cxXNjRv/syd.png") !important;
+}
+
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(3) {
+content: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3yh7JPitHAacxUl1nHb_e3F33KBEIol6aL2pDsC4ocnBvI2zN6giRJxU2_6JzIrYWAndy3uRY5UjlRy1uJcD3BXrRn4YBIBXGGq7DcFe7tEJ7Ntv9ZaxlRbiEoAptZukFP-iHtMh6O3DSacVPiK7Vuvrldk2GcGqcrSNHfMUl0EzZDxG5OBrSuQqFoGU/s320/hk.png") !important;
+}
+
+
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(4) {
+content: url("https://cdn.jsdelivr.net/gh/kerasyadekk/turbo-meme@main/03fotpic/sicbodice.png") !important;
+}
+
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(5) {
+content: url("https://i.ibb.co/9vTx8Pf/bcc.png") !important;
+}
+
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(6) {
+content: url("https://cdn.jsdelivr.net/gh/kerasyadekk/turbo-meme@main/03fotpic/hbn.png") !important;
+}
+
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(7) {
+content: url("https://i.ibb.co/5MH6Dc8/idns.png") !important;
+}
+
+
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(8) {
+content: url("https://cdn.jsdelivr.net/gh/kerasyadekk/turbo-meme@main/03fotpic/mgs.png") !important;
+}
+
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(9) {
+content: url("https://i.ibb.co/H73C8PP/nloc.png") !important;
+}
+
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(10) {
+content: url("https://i.ibb.co/fN7dWW0/pgst.png") !important;
+}
+
+.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(11) {
+content: url("https://i.ibb.co/Mk4DnSH/pps.png") !important;
+}
+		
+		.gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(1n + 52) {
+		display : none !important;
+		}
+		
+		.owl-wrapper-outer  {
+				background: transparent!important;
+				padding: 0px 0px 0px 0px;
+				margin-top: 0px; 
+			}
+		.owl-item       {
+				margin-top: 10px;
+				padding: 0px 0px 0px;
+				background: transparent !important;
+			}
+		.gameicon{
+				margin-top: 0px;
+				background: transparent !important;
+			}
+		 
+		.owl-carousel.bankscroll  {
+				margin-top: 6px;
+				padding: 20px 0px 20px;
+			}
