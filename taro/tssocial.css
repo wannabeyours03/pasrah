@@ -1,0 +1,84 @@
+    div.col-sm-0 span {
+        display: none;
+    }
+
+    div.social {
+        width: 100%;
+        /* background-image: url(https://i.imgur.com/1SHCzVn.jpg); */
+        background-size: contain;
+        padding: 5px 1px 10px 1px;
+        margin: auto;
+        text-align: center;
+    }
+
+    #ico {
+        background: #131313;
+        padding: 5px 15px 5px 15px;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        margin: 5px 3px;
+        border: .5px solid #ffffff;
+        display: inline-block;
+    }
+
+    div.social img {
+        vertical-align: middle;
+        display: inline;
+    }
+
+    div.social p {
+        display: inline-block;
+        font-size: 14px;
+    }
+
+    .social {
+        left: 0;
+        width: 0;
+        position: fixed;
+        top: 130px;
+        z-index: 9999999999;
+    }
+
+    .social ul {
+        padding: 0px;
+        -webkit-transform: translate(-130px, 0);
+        -moz-transform: translate(-130px, 0);
+        -ms-transform: translate(-130px, 0);
+        -o-transform: translate(-130px, 0);
+        transform: translate(-130px, 0);
+    }
+
+
+    .social ul li {
+        display: block;
+        margin: 6px;
+        margin-left: 0px;
+        background: rgba(0, 0, 0, 0.86);
+        width: 189px;
+        text-align: right;
+        padding: 4px;
+        -webkit-border-radius: 0 20px 20px 0;
+        -moz-border-radius: 0 20px 20px 0;
+        border-radius: 0 20px 20px 0;
+        -webkit-transition: all 1s;
+        -moz-transition: all 1s;
+        -ms-transition: all 1s;
+        -o-transition: all 1s;
+        transition: all 1s;
+        height: 53px;
+        border: groove 2px #ab0102;
+    }
+
+    .social ul li:hover {
+        -webkit-transform: translate(110px, 0);
+        -moz-transform: translate(110px, 0);
+        -ms-transform: translate(110px, 0);
+        -o-transform: translate(110px, 0);
+        transform: translate(110px, 0);
+        background: rgba(95, 95, 95, 0.7);
+    }
+
+    .buttonWrap {
+        text-transform: uppercase !important;
+    }
