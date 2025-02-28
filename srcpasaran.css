@@ -1,0 +1,89 @@
+  .grubsearchPasaran {
+    width: 100%;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    background: linear-gradient(to bottom, #007eff, #0010ff) !important;
+    border: 1px solid #feffaa !important;
+    position: relative;
+  }
+
+  .grubsearchPasaran input {
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    background: #000000;
+    box-shadow: none;
+  }
+
+  .grubsearchPasaran img {
+    width: 28px;
+    margin-right: 5px;
+    filter: brightness(10) drop-shadow(1px 2px 2px #00000054) contrast(1);
+  }
+
+    .pool-name {
+        color: #ffffff !important;
+        background: linear-gradient(to right, #043cbb, #007fb9) !important;
+        width: 100% !important;
+        font-size: 12px !important;
+        font-weight: bold !important;
+        text-align: center !important;
+        border-bottom: 1px solid #ffffff !important;
+    }
+
+    .pool-date {
+      font-size: 12px !important;
+      margin-left: 0 !important;
+      padding-top: 0 !important;
+      text-align: center !important;
+      display: block !important;
+      color: #fff !important;
+    }
+
+    .pool-result {
+      color: #fff !important;
+      text-align: center !important;
+      width: 100% !important;
+      font-size: 18px !important;
+      line-height: 1.2 !important;
+      float: none !important;
+      margin-bottom: 2px;
+    }
+
+    .showp {
+            color: rgb(0, 0, 0);
+            display: flex;
+            float: right;
+            position: absolute;
+            align-items: center;
+            top: 12px;
+            right: 12px;
+            z-index: 1;
+}
+        .showp img {
+            width: 15px;
+            height: 15px;
+            filter: brightness(0) contrast(8.8);
+            
+}
+        .showp #hideshow {
+            display: none;
+}
+        .smartb4 input[type="text"], .smartb4 input[type="password"], select, textarea {
+            border: 3px solid #007eff;
+            border-radius: 10px 10px 10px 10px;
+            box-shadow: -4px -4px 10px rgba(67, 67, 67, 0.5), inset 4px 4px 10px rgba(0, 0, 0, 0.5), inset -4px -4px 10px rgba(67, 67, 67, 0.3), 4px 4px 10px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s ease;
+}
+        input[type="text"]:focus {
+            border: 1px solid white;
+}
+        input[type="password"]:focus {
+            border: 1px solid white;
+}
