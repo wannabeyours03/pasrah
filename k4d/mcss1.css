@@ -1,0 +1,111 @@
+section.section {
+    padding: 0px 0 0 0;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.breadcrumbs {
+    padding: 40px 0;
+    color: white;
+}
+
+.fa-history {
+    color: #ffffff;
+    background: -webkit-linear-gradient(#ffffff, #ffffff);
+    -webkit-text-fill-color: transparent;
+}
+
+body {
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    color: #ffffff;
+    background: #000000 center center no-repeat;
+    background-position: top;
+}
+
+p:not(.lead) { 
+    font-size: 14px;
+    line-height: 20px;
+    color: #b1b1b1;
+    font-weight: 300;
+    margin: 0 35px;
+}
+
+footer#footer {
+    background: rgba(0, 0, 0, 0.6) !important;
+    border-top: 1px groove yellow;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 300;
+    font-size: 12px;
+    width: 1170px;
+    margin: auto;
+    box-shadow: rgb(0 0 0 / 90%) 0 32px 62px -2px, rgb(0 0 0 / 90%) 0 30px 32px -3px;
+}
+
+footer#footer .footer-bottom {
+    padding: 20px 0;
+    background-color: #000000eb;
+    font-size: 12px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 1);
+    vertical-align: middle;
+    margin-top: -10px;
+}
+
+.bottomnv {
+    width: auto;
+}
+
+.bottomnv .blacktp {
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding-right: 55px;
+}
+
+.bottomnv li {
+    display: inline-block;
+    list-style: none;
+}
+
+.bottomnv li a {
+    display: block;
+    background: linear-gradient(to right, #a80000 0%, #f20f0f 50%, #8b0303 100%) !important;
+    border-radius: 10px;
+    color: white;
+    padding: 8px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: 1px solid gold;
+    border-top: 1px solid gold;
+}
+
+.bottomnv_active {
+    border-bottom: 1px solid #fff !important;
+    border-top: 1px solid #fff !important;
+    border-left: none;
+    border-right: none;
+    text-transform: uppercase;
+    color: #fff !important;
+}
+
+.Slot-kasir4d, .casino-kasir4d {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 4px;
+    grid-row-gap: 4px;
+}
+
+.daftar-slot-kasir4d, .daftar-casino-kasir4d {
+    margin: 7px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    animation: shadow 2s infinite alternate;
+}
