@@ -1,0 +1,118 @@
+        #pop-up-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        position: fixed;
+        z-index: 11;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        }
+        #pop-up-wrapper {
+        width: 85%;
+        min-width: 315px;
+        max-width: 500px;
+        min-height: 210px;
+        position: relative;
+        z-index: 11;
+        overflow: visible;
+        border-radius: 5px;
+        }
+        #pop-up-wrapper img {
+        width: 100%;
+        border-radius: 5px 5px 0 0;
+        }
+        #pop-up-wrapper button {
+        width: 100%;
+        padding: 0.75rem;
+        font-weight: 700;
+        border: none;
+        border-radius: 0 0 5px 5px;
+        margin: 0;
+        background-color: #081063;
+        }
+        .gray-bg {
+        background: #00000000 no-repeat;
+        }
+        #bg-black {
+        background-color: rgba(0, 0, 0, 0.86);
+        position: fixed;
+        z-index: 10;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        }
+@media screen and (max-width: 768px) {
+    #pop-up-wrapper {
+        width: 100vw;
+        height: 70vw;
+        max-width: 600px;
+        aspect-ratio: 2 / 1;
+        transform: translateY(-20%);
+    }
+}
+    .sticky-note-in {
+      animation: elegant-entry 1s ease-out both;
+    }
+
+    @keyframes elegant-entry {
+      0% {
+        transform: scale(0.2) rotate(-180deg) translateY(-50px);
+        opacity: 0;
+      }
+      50% {
+        transform: scale(1.1) rotate(45deg) translateY(10px);
+        opacity: 0.6;
+      }
+      100% {
+        transform: scale(1) rotate(0) translateY(0);
+        opacity: 1;
+      }
+    }
+
+    .sticky-note-out {
+      animation: elegant-exit 1s ease-in both;
+    }
+
+    @keyframes elegant-exit {
+      0% {
+        transform: scale(1) rotate(0) translateY(0);
+        opacity: 1;
+      }
+      50% {
+        transform: scale(1.1) rotate(-45deg) translateY(10px);
+        opacity: 0.6;
+      }
+      100% {
+        transform: scale(0.2) rotate(180deg) translateY(-50px);
+        opacity: 0;
+      }
+    }
+
+    .fade-in {
+      animation: fade-in 1.5s ease-out both;
+    }
+
+    @keyframes fade-in {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+    .fade-out {
+      animation: fade-out 1s ease-out both;
+    }
+
+    @keyframes fade-out {
+      0% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
