@@ -1,0 +1,107 @@
+.supportby-section {
+    grid-template-columns: .3fr !important;
+}
+
+     .toggleRow {
+          transition: height 1s ease;
+          overflow: hidden;
+     }
+
+     .toggleRow:not(.active) {
+          display: none;
+     }
+
+     .toggle-readmore {
+          text-align: center;
+          color: rgba(246, 96, 53, 1) !important;
+          font-size: 16px;
+          font-weight: 600;
+          max-width: 116px;
+          margin: 0 auto;
+          cursor: pointer;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          text-align: center;
+     }
+
+     .toggle-readmore .title-text {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-box-flex: 1;
+          -ms-flex-positive: 1;
+          flex-grow: 1;
+          -webkit-box-pack: start;
+          -ms-flex-pack: start;
+          justify-content: flex-start;
+          text-align: left;
+     }
+
+     .toggle-readmore .arrow {
+          width: 30px;
+          height: 30px;
+          -webkit-transition: -webkit-transform 0.3s ease-in-out;
+          transition: -webkit-transform 0.3s ease-in-out;
+          transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          position: relative;
+          -ms-flex-negative: 0;
+          flex-shrink: 0;
+     }
+
+     .toggle-readmore .arrow.closetoggle {
+          -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+     }
+
+     .toggle-readmore .arrow .close {
+          fill: rgba(255, 255, 255, 1);
+          width: 100%;
+          height: 100%;
+          opacity: 1;
+     }
+
+     .arrow-wrapper {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 4px;
+     }
+        .gradient-text {
+            background: linear-gradient(to right, hsl(181deg 100% 48%), hsl(211deg 100% 50%));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: #fbe692;
+            font-weight: bold;
+            text-align: center;
+        }
+        .center-text {
+            text-align: center;
+            padding: 20px;
+        }
+        .large-text {
+            position: relative;
+            font-size: larger;
+            margin-left: 200px;
+        }
+        .highlight-link {
+            color: #fbe692;
+        }
